@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+.nav-bar{
+    margin: 0;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+span{
+    font-size: 22px;
+    font-weight: 900;
+    padding: 0 10px;
+}
+.nav-bar-left{
+    display: flex;
+    position: absolute;
+    left: 100px;
+}
+.nav-bar-logo{
+    font-weight: 900;
+    font-size: 22px;
+    text-align: end;
+    font-family: 'Calligraffitti', cursive;
+}
+.nav-bar-right{
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+.nav-bar-btn{
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+/*=====================================About==================================*/
+
+#about{
+    position: relative;
+    margin:200px 100px;
+}
+.about-content{
+    position: absolute;
+
+}
+.content1{
+    font-size: 27px;
+}
+.content2{
+    font-size: 75px;
+    font-weight: 600;
+}
+.content3{
+    font-size: 40px;
+    color: crimson;
+}
+span{
+    color: crimson;
+}
